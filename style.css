@@ -1,0 +1,28 @@
+.slike .slika{
+    display: inline-block;
+    position: relative;
+}
+
+.slike .delete-icon {
+    position: absolute;
+    top: 0;
+    right: 4px;
+    color: black;
+    padding: 5px;
+    display: none;
+}
+
+.slike .slika:hover .delete-icon {
+    display: block;
+}
+
+h1.inventory {
+    margin: 0;
+}
+
+a.addRFC{
+    margin-left: auto;
+}
+div.footer{
+    margin-right: auto;
+}
